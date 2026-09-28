@@ -10,30 +10,38 @@
 
     <nav class="sticky top-0 z-50 backdrop-blur-md bg-slate-900/80 border-b border-slate-800">
         <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
-            <span class="font-bold text-xl tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Dev.Portfolio</span>
+            <span class="font-bold text-xl tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500"></span>
             <div class="space-x-6 text-sm font-medium text-slate-400">
-                <a href="#proyectos" class="hover:text-cyan-400 transition">Proyectos</a>
-                <a href="#sobre-mi" class="hover:text-cyan-400 transition">Resumen Profesional</a>
+    <a href="#sobre-mi" class="hover:text-cyan-400 transition">Sobre nosotros</a>
+    <a href="#proyectos" class="hover:text-cyan-400 transition">Proyectos</a>
+    <a href="#contacto" class="hover:text-cyan-400 transition">Contacto</a>
             </div>
+            
         </div>
     </nav>
 
     <header id="sobre-mi" class="max-w-5xl mx-auto px-4 py-20 text-center md:text-left md:flex md:items-center md:justify-between gap-8">
         <div class="space-y-4 max-w-2xl">
             <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight">
-                Hola, soy <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Yael Lopez Amador</span>
+                Amador <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Systems & Software</span>
             </h1>
             <p class="text-lg md:text-xl text-slate-400 font-medium">
-                Ingeniería en Informática | Full-Stack Developer
+                Ingeniería en Informática 
             </p>
             <p class="text-slate-400 leading-relaxed">
-                Desarrollador orientado a soluciones con sólida formación técnica en arquitectura de software. Especializado en el diseño y despliegue de aplicaciones web híbridas y plataformas móviles nativas. Dominio avanzado de ecosistemas modernos como **React, TypeScript, Node.js, NestJS, Kotlin**, y diseño de bases de datos relacionales bajo estándares internacionales de calidad.
+
+En Amador Soluciones Digitales nos enfocamos en brindar soluciones tecnológicas integrales para proyectos en desarrollo, negocios y particulares. Combinamos la ingeniería de software con la infraestructura digital, abarcando desde el diseño y despliegue de aplicaciones web híbridas y plataformas móviles nativas (utilizando tecnologías como React, TypeScript, Node.js, NestJS y Kotlin), hasta la implementación de sistemas con Arduino/IoT, instalación de cámaras de seguridad (CCTV) y configuración de redes local/estructurado.
+
+Nos orientamos en crear arquitecturas de software eficientes con bases de datos relacionales sólidas, al mismo tiempo que resolvemos necesidades físicas de conectividad, automatización y seguridad digital con un enfoque práctico y personalizado.
             </p>
         </div>
         <div class="mt-8 md:mt-0 flex justify-center">
             <div class="w-40 h-40 rounded-full bg-gradient-to-tr from-cyan-500 to-blue-600 p-1 shadow-xl shadow-cyan-500/10">
                 <div class="w-full h-full bg-slate-900 rounded-full flex items-center justify-center text-4xl">💻</div>
             </div>
+            <div class="flex gap-4 pt-25">
+   
+</div>
         </div>
     </header>
 
@@ -62,6 +70,26 @@
             </div>
 
 
+            
+ <div class="bg-slate-800/40 border border-slate-800 rounded-2xl p-6 hover:border-slate-700 hover:bg-slate-800/60 transition group flex flex-col justify-between">
+                <div>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-cyan-500/10 text-cyan-400">TAILWIND</span>
+                        <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-indigo-500/10 text-indigo-400">HTML</span>
+                    </div>
+                    <h3 class="text-xl font-bold group-hover:text-cyan-400 transition mb-2">Sistema de gestion de citas para consultorio dental</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Pagina web interactica para gestion de citas para consultrio dental.
+                    </p>
+                </div>
+                <div class="flex gap-4 pt-4 border-t border-slate-800/60 text-sm font-semibold">
+                    <button onclick="openModal('CistasDentsita')" class="text-cyan-400 hover:underline cursor-pointer">Documentación y Evidencias &rarr;</button>
+                </div>
+            </div>
+
+
+
+
 
  <div class="bg-slate-800/40 border border-slate-800 rounded-2xl p-6 hover:border-slate-700 hover:bg-slate-800/60 transition group flex flex-col justify-between">
                 <div>
@@ -69,7 +97,7 @@
                         <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-cyan-500/10 text-cyan-400">JavaScript</span>
                         <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400">Node</span>
                     </div>
-                    <h3 class="text-xl font-bold group-hover:text-cyan-400 transition mb-2">Pagina web para hamburgueseria</h3>
+                    <h3 class="text-xl font-bold group-hover:text-cyan-400 transition mb-2">Menú digital para ordenar comida en restaurante</h3>
                     <p class="text-slate-400 text-sm leading-relaxed mb-4">
                         Pagina web interactica para gestion de pedidos por medio de WhatsApp.
                     </p>
@@ -206,6 +234,62 @@
         </div>
     </div>
 
+
+
+
+
+    <div id="CistasDentsita" class="hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-slate-800 border border-slate-700 max-w-3xl w-full rounded-2xl overflow-hidden shadow-2xl relative flex flex-col max-h-[90vh]">
+            <div class="p-6 border-b border-slate-700 flex justify-between items-center bg-slate-800/50">
+                <h3 class="text-xl font-bold text-cyan-400">Documentación: Sistema de gestion de citas</h3>
+                <button onclick="closeModal('CistasDentsita')" class="text-slate-400 hover:text-white font-medium text-sm px-3 py-1 bg-slate-700 rounded-lg cursor-pointer">Cerrar</button>
+            </div>
+            <div class="p-6 overflow-y-auto space-y-4 text-sm leading-relaxed">
+                <div><strong>Problema:</strong> Falta de un control para gestionar las citas en un consultorio dental.</div>
+                <div><strong>Tecnologías:</strong> HTML, TAILWIND, JavaScript.</div>
+                <div><strong>Funcionalidades:</strong> Registro y gestión de citas, notificaciones, calendario integrado.</div>
+                <hr class="border-slate-700">
+                <span class="text-xs text-slate-400 block font-semibold mb-2">Galería de Evidencias de Funcionamiento Real:</span>
+                <div class="space-y-4">
+                    <div class="bg-slate-900 p-2 rounded-xl border border-slate-700/30">
+                        <span class="text-xs text-slate-400 block mb-2">1. Pantalla principal</span>
+                        <img src="img/CitasDentista/1.png" alt="Principal" class="w-full rounded-lg object-contain" onerror="this.src='https://placehold.co/600x400/1e293b/fff?text=Captura+1+no+encontrada'">
+                    </div>
+                    <div class="bg-slate-900 p-2 rounded-xl border border-slate-700/30">
+                        <span class="text-xs text-slate-400 block mb-2">2. Selección de fecha por medio de un calendario</span>
+                        <img src="img/CitasDentista/2.png" alt="Principal" class="w-full rounded-lg object-contain" onerror="this.src='https://placehold.co/600x400/1e293b/fff?text=Captura+1+no+encontrada'">
+                    </div>
+                     <div class="bg-slate-900 p-2 rounded-xl border border-slate-700/30">
+                        <span class="text-xs text-slate-400 block mb-2">3. Vista desde el panel de administrador con opciones para ajustar el estado de la cita </span>
+                        <img src="img/CitasDentista/3.png" alt="Principal" class="w-full rounded-lg object-contain" onerror="this.src='https://placehold.co/600x400/1e293b/fff?text=Captura+1+no+encontrada'">
+                    </div>
+                    <div class="bg-slate-900 p-2 rounded-xl border border-slate-700/30">
+                        <span class="text-xs text-slate-400 block mb-2">4. Validacion para no agendar citas en fin de semana (a peticion de cliente)</span>
+                        <img src="img/CitasDentista/4.png" alt="Categoría" class="w-full rounded-lg object-contain" onerror="this.src='https://placehold.co/600x400/1e293b/fff?text=Captura+2+no+encontrada'">
+                    </div>
+                    <div class="bg-slate-900 p-2 rounded-xl border border-slate-700/30">
+                        <span class="text-xs text-slate-400 block mb-2">5. Filtrado de citas por fecha (panel de administrador)</span>
+                        <img src="img/CitasDentista/5.png" alt="Receta" class="w-full rounded-lg object-contain" onerror="this.src='https://placehold.co/600x400/1e293b/fff?text=Captura+3+no+encontrada'">
+                    </div>
+                    
+                    <div class="bg-slate-900 p-2 rounded-xl border border-slate-700/30">
+                        <span class="text-xs text-slate-400 block mb-2">6. Vista desde el telefono</span>
+                        <img src="img/CitasDentista/7.jpeg" alt="Receta" class="w-full rounded-lg object-contain" onerror="this.src='https://placehold.co/600x400/1e293b/fff?text=Captura+3+no+encontrada'">
+                    </div>
+                    <div class="bg-slate-900 p-2 rounded-xl border border-slate-700/30">
+                        <span class="text-xs text-slate-400 block mb-2">7. Vista desde el telefono (panel de administrador)</span>
+                        <img src="img/CitasDentista/6.jpeg" alt="Receta" class="w-full rounded-lg object-contain" onerror="this.src='https://placehold.co/600x400/1e293b/fff?text=Captura+3+no+encontrada'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
     <div id="modal-directorio" class="hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
         <div class="bg-slate-800 border border-slate-700 max-w-3xl w-full rounded-2xl overflow-hidden shadow-2xl relative flex flex-col max-h-[90vh]">
             <div class="p-6 border-b border-slate-700 flex justify-between items-center bg-slate-800/50">
@@ -250,7 +334,7 @@
                 <div><strong>Tecnologías:</strong> React, Node.js, MongoDB.</div>
                 <div><strong>Arquitectura:</strong> Patrón de Diseño arquitectónico MVVM (Model-View-ViewModel).</div>
                 <div><strong>Funcionalidades:</strong> Creación, edición y eliminación de recetas; búsqueda y filtrado por ingredientes o categorías; gestión de listas de compras.</div>
-                <hr class="border-slate-700">
+                <hr class="border-sleate-700">
                 <span class="text-xs text-slate-400 block font-semibold mb-2">Galería de Evidencias de Funcionamiento Real:</span>
                 <div class="space-y-4">
                     <div class="bg-slate-900 p-2 rounded-xl border border-slate-700/30">
@@ -307,12 +391,28 @@
        
     </div>
 
+    <section id="contacto" class="max-w-5xl mx-auto px-4 py-16 border-t border-slate-800">
+    <h2 class="text-3xl font-bold mb-8 flex items-center gap-3">
+        <span class="text-cyan-400">//</span> Contacto
+    </h2>
+    <div class="bg-slate-800/40 border border-slate-800 rounded-2xl p-8 text-center space-y-6">
+        <p class="text-slate-300 text-lg">
+            ¿Tienes un proyecto en mente o te interesa colaborar? ¡Hablemos!
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+           <a href="https://wa.me/527121717056?text=Hola,%20me%20interesa%20consultar%20sus%20servicios%20de%20software%20y%20redes" 
+     target="_blank" 
+      class="px-5 py-3.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-sm transition">
+    💬 WhatsApp: 712 171 7056
+  </a>
+        </div>
+    </div>
+</section>
+
     <footer class="max-w-5xl mx-auto px-4 py-12 border-t border-slate-800 text-center text-sm text-slate-500">
         <p>© 2026 Yael Lopez Amador. Desarrollado con HTML y Tailwind CSS.</p>
-        <div class="mt-4">
-            <a href="https://github.com/YaelLopezA" target="_blank" class="text-slate-400 hover:text-cyan-400 font-semibold transition">Mi Perfil Oficial de GitHub 🔗</a>
-        </div>
     </footer>
+   
 
     <script>
         function openModal(modalId) {
